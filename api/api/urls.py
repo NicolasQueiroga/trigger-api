@@ -24,6 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/checkserver/', index, name='index'),
     path('api/auth/', include('authapp.urls')),
+    path('api/network/', include('trigger.urls')),
 
 ]
 

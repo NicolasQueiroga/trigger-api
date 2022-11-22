@@ -4,5 +4,5 @@ from authapp import views
 urlpatterns = [
     path('', include('djoser.urls')),
     path('', include('djoser.urls.authtoken')),
-    path('restricted/', views.restricted)
+    path('restricted/', views.restricted),
 ]
